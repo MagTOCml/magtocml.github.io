@@ -11,4 +11,4 @@ featured: true
 ---
 ## Train Machine Learning Models to /Spot and Decode Magazine TOCs
 
-In the third phase of the **MagTOCml** project, we will use the **MagTOCml** dataset to train #MachineLearning models to spot and decode magazine Table of Contents (TOC) pages. Understanding the TOC of a magazine is an important step toward moving the digitization pipeline from a _within-page_ perspective to a _whole-issue_ approach to the txt- and data-mining of these cultural heritage documents.
+In the third phase of the **MagTOCml** project, we will use the **MagTOCml** dataset to train #MachineLearning models to spot and decode magazine Table of Contents (TOC) pages. Understanding the TOC of a magazine is an important step toward moving the digitization pipeline from a _within-page_ perspective to a _whole-issue_ approach to the text- and data-mining of these cultural heritage documents.

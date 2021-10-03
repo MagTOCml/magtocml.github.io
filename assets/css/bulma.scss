@@ -202,3 +202,13 @@ h6:hover .header-link {
 .hero.is-bold {
     background-image: linear-gradient(141deg, $dark-purp 0%, $purp 71%, $purp 100%);
 }
+
+.navbar-item a.bg-transparent.button.is-danger {
+    background-color: #fff;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}

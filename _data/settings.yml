@@ -18,6 +18,7 @@ menu:
 
 social:
 # - {name: 'slack', icon: 'fab fa-slack-hash', link: ''}
+- {name: 'Twitter', icon: 'fab fa-twitter', link: 'https://twitter.com/MagTOCml'}
 - {name: 'Github', icon: 'fab fa-github', link: 'https://github.com/MagTOCml/MagTOCspotter'}
 
 project:

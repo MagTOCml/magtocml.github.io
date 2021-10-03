@@ -12,9 +12,9 @@ assets:
   badge: '/assets/site/MagTOCml_logo.png'
 
 menu:
-- {name: 'About', file: 'about.html'}
+- {name: 'About', file: '/about.html'}
 - {name: 'MagTOC Spotting', file: '/project/1-spot.html'}
-- {name: 'Project Roadmap', file: 'project.html'}
+- {name: 'Project Roadmap', file: '/project.html'}
 
 social:
 # - {name: 'slack', icon: 'fab fa-slack-hash', link: ''}

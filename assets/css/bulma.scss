@@ -1,0 +1,204 @@
+---
+---
+
+@charset "utf-8";
+
+// Font Issues
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;600&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+$family-header: "Fira Sans Extra Condensed", sans-serif;
+$family-primary: "Lato", sans-serif;
+$family-secondary: "Lato", sans-serif;
+$family-sans-serif: "Lato", sans-serif;
+
+// Size Issues
+$footer-padding: 1rem 1.5rem 1rem;
+$footer-background-color: #f5f5f5; // hsl(0, 0%, 100%);
+$navbar-padding-vertical: 0.25rem;
+$navbar-height: 5rem;
+$divider-thickness: 0.075rem;
+$tabs-border-bottom-width: 0.075rem;
+
+$red: #e46767;
+$dark-red: #e43838;
+
+$purp: #CCCCFF;
+$dark-purp: #9999FF;
+
+// Layout Issues
+$widescreen-enabled: true;
+$fullhd-enabled: false;
+
+// Navbar
+$navbar-item-img-max-height: 4rem;
+
+// Import Bulma
+@import "bulma/bulma";
+@import "bulma-divider/src/sass/index";
+
+// public
+
+a.is-active {
+    background-color: $purp !important;
+}
+
+.theme-color {
+    color: $dark-purp;
+}
+
+.theme-color:hover {
+    color: $purp;
+}
+
+.install-btn,
+.slack-btn,
+.btn-anime {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+// Navbar
+.mt-navbar {
+    padding: 16px 0;
+}
+
+.hero-head .mt-navbar {
+    padding-bottom: 0px;
+}
+
+.mt-badge {
+    height: 200px;
+    vertical-align: middle;
+}
+
+.navbar-item {
+    font-family: $family-header;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+// Slogan
+
+.slogan-hero {
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.slogan {
+    font-family: $family-header;
+    font-weight: bold;
+    line-height: 145%;
+}
+
+.slogan-description {
+    line-height: 145%;
+}
+
+.modal-text {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+}
+
+// what-hero
+
+.what-hero-detail {
+    display: none;
+}
+.what-hero-detail.is-active {
+    display: initial;
+}
+
+// Article & posts styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $family-header;
+}
+
+.content .highlight {
+    text-align: left;
+    margin-left: 0em;
+    margin-right: 0em;
+} // Because Bulma will change the default figure style.
+
+.header-link {
+    position: relative;
+    left: 0.5rem;
+    opacity: 0;
+
+    \-webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    \-moz-transition: opacity 0.2s ease-in-out 0.1s;
+    \-ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+    opacity: 0.5;
+}
+
+.utterances {
+    max-width: 100%;
+}
+
+// Slack
+
+.disqus-hero {
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+.disqus-title {
+    font-family: $family-header;
+    font-weight: bold;
+}
+
+.disqus-btn {
+    border: none;
+    background-color: $purp;
+}
+.disqus-btn:hover {
+    background-color: $dark-purp;
+}
+
+.disqus-btn-txt {
+    font-size: 1.15rem;
+    font-family: $family-header;
+    color: white !important;
+}
+
+// MagTOCml overrides
+.hero.is-small .hero-body {
+  padding: 0.5rem;
+}
+
+.hero-body {
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+
+.slogan {
+    line-height: 110%;
+}
+
+.hero.is-theme-colors {
+    background-color: $dark-purp;
+    color: #fff;
+}
+
+.mb-5 {
+    margin-bottom: 0rem !important;
+}
+
+.hero.is-bold {
+    background-image: linear-gradient(141deg, $dark-purp 0%, $purp 71%, $purp 100%);
+}

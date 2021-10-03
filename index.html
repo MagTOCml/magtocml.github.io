@@ -1,0 +1,97 @@
+---
+layout: default
+show_nav: false
+---
+
+<section class="hero is-theme-colors is-bold slogan-hero">
+    <div class="hero-head">
+        {% include nav.html %}
+    </div>
+    <div class="hero-body">
+        <div class="container">
+
+            <h1 class="title slogan is-size-2">
+                {{ site.data.index.slogan.title | markdownify }}
+            </h1>
+            <h2 class="subtitle has-text-white-ter slogan-description is-size-5">
+                {{ site.data.index.slogan.description |
+                markdownify }}
+            </h2>
+        </div>
+    </div>
+</section>
+
+{% include index/centered-title.html title=site.data.index.spotatoc.title description=site.data.index.spotatoc.description sep=true %}
+
+<section class="hero">
+    <div class="hero-body pt-4">
+        <div class="container">
+            {% assign count = 0 %}
+            {% assign is_new_row = count | modulo: 3 %}
+
+            {% for step in site.project %}
+                {% if forloop.first == true or is_new_row==0 %}
+                <div class="columns">
+                {% endif %}
+
+                {% if step.featured == true %}
+                <div class="column is-4">
+                    <div class="box" style="height: 100%">
+                        <!-- Icon image here -->
+                        <figure class="image is-128x128 is-pulled-right">
+                            <img src="{{ site.data.index.spotatoc.icons}}{{step.icon}}">
+                        </figure>
+                        <h2 class="subtitle is-size-4">
+                            {% if step.external_link != nil %}
+                                {% assign url = step.external_link %}
+                            {% else %}
+                                {% assign url = step.url %}
+                            {% endif %}
+                            {% if step.short_title != nil %}
+                                {% assign title = step.short_title %}
+                            {% else %}
+                                {% assign title = step.title %}
+                            {% endif %}
+                            <a class="theme-color" href="{{ url }}">{{ title }}</a>
+                        </h2>
+                        {{ step.description | markdownify }}
+                    </div>
+                </div>
+                {% assign count = count | plus: 1 %}
+                {% endif %}
+
+                {% assign is_new_row = count | modulo: 3 %}
+                {% if forloop.last == true or is_new_row==0 %}
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% include index/slideshow.html title=site.data.index.slideshow.title description=site.data.index.slideshow.description sep=true %}
+
+<section class="hero disqus-hero mt-6">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <p class='title is-size-2 disqus-title'>{{site.data.index.disqus.title}}</p>
+                    <p class='subtitle is-size-6 mt-2'>
+                        {{ site.data.index.disqus.description }}
+                    </p>
+                    <button class="mt-2 p-4 disqus-btn">
+                        <a class="disqus-btn-txt"
+                            href="{{ site.data.settings.links.disqus }}"
+                            target="_blank">Chat via DISQUS</a>
+                    </button>
+                </div>
+                <div class="column is-two-fifths">
+                    <figure class="image is-4by4">
+                        <img src="{{ site.data.index.disqus.figure }}">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

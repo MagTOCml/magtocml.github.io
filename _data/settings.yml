@@ -1,0 +1,28 @@
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID:
+# disqus-ID: x
+# utterances-repo: x
+
+links:
+#  slack: https://join.slack.com/t/layout-parser/shared_invite/zt-ohjd14k1-OrJ2HltwVRGrxhLeHMfW_w
+  disqus: 'project.html'
+
+assets:
+  logo: '/assets/site/MagTOCml_logo.png'
+  badge: '/assets/site/MagTOCml_logo.png'
+
+menu:
+- {name: 'About', file: 'about.html'}
+- {name: 'MagTOC Spotting', file: '/project/1-spot.html'}
+- {name: 'Project Roadmap', file: 'project.html'}
+
+social:
+# - {name: 'slack', icon: 'fab fa-slack-hash', link: ''}
+- {name: 'Github', icon: 'fab fa-github', link: 'https://github.com/MagTOCml/MagTOCspotter'}
+
+project:
+  categories:
+    - {name: 'steps', title: 'Steps'}
+
+footnote: >
+  Created and maintained by MagTOCml Citizen Scientists. Built with [jekyll](https://jekyllrb.com/) and [bulma](http://bulma.io/).

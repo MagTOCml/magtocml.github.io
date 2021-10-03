@@ -1,0 +1,27 @@
+badge: '/assets/site/MagTOCml_logo.png'
+icon: '/assets/site/favicon.ico'
+
+slogan:
+  title: >
+    MagTOCml --
+    Building a Ground Truth Dataset of Magazine Table of Contents (TOC) Pages
+  description: >
+    Help us find and transcribe TOC pages in magazine collections at the Internet Archive.
+  example: '/assets/images/index/pipeline.png'
+
+spotatoc:
+  title: Can You SpotaTOC!?
+  description:
+    There are tens of thousands of magazine Table of Contents (TOC) pages at the Internet Archive. Please help us find them.
+  icons: '/assets/images/icons/'
+
+slideshow:
+  title: Why a MagTOCml Dataset!?
+  description:
+    Magazine Table of Contents (TOC) pages are a Sudoku-like answer key of explicit hints about the whole-issue document structure of a magazine. Six years ago we tried to get this project funded and started through a collaboration with the PRImA Lab. Now it's time to just doit! :-)
+
+disqus:
+  title: Let's Talk on DISQUS!
+  description:
+    Questions or Want to Know More? Join our slack channel for answers or to explore how you can help with our project. Digital Humanities and AI/ML students, and Git-confident and Pythonista Citizen Scientists are especially welcome.
+  figure: '/assets/site/MagTOCml_via_Disqus.png'

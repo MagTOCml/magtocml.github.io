@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to the Repository for the MagTOC.ml GitHub Project Website
 
-You can use the [editor on GitHub](https://github.com/MagTOCml/magtocml.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+To learn more about this #DigitalHumanities and #AI/#ML (#MachineLearning) project, please visit our project homepage here: https://MagTOC.ml.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We will have more to share here in the weeks ahead. But for now, you can get a sense of our mission by viewing this short series of slides: https://bit.ly/early_MagTOCml_ideas.
 
-### Markdown
+In brief, this project is buiding a #GroundTruth dataset of TOCs -- Table of Contents -- pages of magazines in the digital collections of computer magazines at the Internet Archive here: https://archive.org/details/computermagazines. There are over 19,000 items in this collection of collections. An item is most likely an issue of one of the roughly 1,700 computer magazine periodicals. One goal of this project is to determine the accurate size and depth of these magazine collections.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+By creating the MagTOCml dataset, we will be able to train a #MachineLearning model that can work with us to find and understand (accurately understande through text- and data-mining) the broad content of this rich cultural heritage resource.
 
-```markdown
-Syntax highlighted code block
+If this interests you, please do not hesitate to connect with this project through GitHub or via Twitter at: [@MagTOCml](https://twitter.com/MagTOCml).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MagTOCml/magtocml.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Happy Healthy Vibes from Colorado USA,
+  -Jim Salmons-

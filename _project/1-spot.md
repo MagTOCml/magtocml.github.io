@@ -1,6 +1,6 @@
 ---
 layout: post
-description: Use Twitter to SpotaTOC & Help Build the Dataset
+description: Use the TOCspotter App to Help Build the Dataset
 date: 2021-10-01 11:59:59
 title: Spot
 icon: 1_spotting.png
@@ -9,6 +9,8 @@ show_nav: false
 featured: true
 ---
 ## SpotaTOC!
+
+NOTE: The methodology of the Spot phase of the project is being redesigned. This page will be updated soon. We will be releasing a simple Python app to efficiently find and gather the TOC pages rather than rely on a Twitter based workflow.
 
 Phase 1 in the **MagTOCml** project involves volunteer Twitter folk keeping an eye out for the Daily TOC Target tweets from the **@MagTOCml** Twitter account of this project. These tweets will include URL links to a small number of specific issues of magazines drawn from the massive *Computer Magazines* collection at the Internet Archive.
 

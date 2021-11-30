@@ -9,14 +9,20 @@ show_nav: false
     </div>
     <div class="hero-body">
         <div class="container">
-
-            <h1 class="title slogan is-size-2">
-                {{ site.data.index.slogan.title | markdownify }}
-            </h1>
-            <h2 class="subtitle has-text-white-ter slogan-description is-size-5">
-                {{ site.data.index.slogan.description |
-                markdownify }}
-            </h2>
+          <div class="columns">
+            <div class="column">
+              <h1 class="title slogan is-size-2">
+                  {{ site.data.index.slogan.title | markdownify }}
+              </h1>
+              <h2 class="subtitle has-text-white-ter slogan-description is-size-5">
+                  {{ site.data.index.slogan.description |
+                  markdownify }}
+              </h2>
+            </div>
+            <div class="column is-one-fifth">
+              {% include carousel.html %}              
+            </div>
+          </div>
         </div>
     </div>
 </section>

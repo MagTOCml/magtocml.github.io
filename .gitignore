@@ -17,3 +17,5 @@ log
 # Visual Studio Code
 .vscode/
 assets/images/toc_samples/full_size/
+Gemfile
+Gemfile.lock

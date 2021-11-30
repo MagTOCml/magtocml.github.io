@@ -37,3 +37,4 @@ gem 'jekyll-compose', group: [:jekyll_plugins]
 
 # gem 'pygments.rb'
 # gem 'rouge',  group: [:jekyll_plugins]
+gem "webrick", "~> 1.7"

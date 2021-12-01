@@ -23,5 +23,11 @@ slideshow:
 disqus:
   title: Let's Talk on DISQUS!
   description:
-    Questions or Want to Know More? Join our slack channel for answers or to explore how you can help with our project. Digital Humanities and AI/ML students, and Git-confident and Pythonista Citizen Scientists are especially welcome.
+    Questions or Want to Know More? Join our Discus channel for answers or to explore how you can help with our project. Digital Humanities and AI/ML students, and Git-confident and Pythonista Citizen Scientists are especially welcome.
   figure: '/assets/site/MagTOCml_via_Disqus.png'
+
+project_discussions:
+  title: Let's Talk on GitHub Discussions!
+  description:
+    Questions or Want to Know More? Join our GitHub project Discussions channel for answers or to explore how you can help with our project. Digital Humanities and AI/ML students, and Git-confident and Pythonista Citizen Scientists are especially welcome.
+  figure: '/assets/site/MagTOCml_via_GitHub.png'

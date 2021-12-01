@@ -20,7 +20,7 @@ show_nav: false
               </h2>
             </div>
             <div class="column is-one-fifth">
-              {% include carousel.html %}              
+              {% include carousel.html %}
             </div>
           </div>
         </div>
@@ -82,19 +82,19 @@ show_nav: false
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <p class='title is-size-2 disqus-title'>{{site.data.index.disqus.title}}</p>
+                    <p class='title is-size-2 disqus-title'>{{site.data.index.project_discussions.title}}</p>
                     <p class='subtitle is-size-6 mt-2'>
-                        {{ site.data.index.disqus.description }}
+                        {{ site.data.index.project_discussions.description }}
                     </p>
                     <button class="mt-2 p-4 disqus-btn">
                         <a class="disqus-btn-txt"
-                            href="{{ site.data.settings.links.disqus }}"
-                            target="_blank">Chat via DISQUS</a>
+                            href="{{ site.data.settings.links.github_project_discussions }}"
+                            target="_blank">Chat via GitHub</a>
                     </button>
                 </div>
                 <div class="column is-two-fifths">
                     <figure class="image is-4by4">
-                        <img src="{{ site.data.index.disqus.figure }}">
+                        <img src="{{ site.data.index.project_discussions.figure }}">
                     </figure>
                 </div>
             </div>

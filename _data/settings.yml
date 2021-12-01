@@ -6,14 +6,17 @@
 links:
 #  slack:
   disqus: 'project.html'
+  github_project_discussions: 'https://github.com/MagTOCml/magtocml.github.io/discussions'
 
 assets:
   logo: '/assets/site/MagTOCml_logo.png'
   badge: '/assets/site/MagTOCml_logo.png'
 
 menu:
+- {name: 'Home', file: '/index.html'}
 - {name: 'About', file: '/about.html'}
 - {name: 'MagTOC Spotting', file: '/project/1-spot.html'}
+- {name: 'Discussions', file: 'https://github.com/MagTOCml/magtocml.github.io/discussions'}
 - {name: 'Project Roadmap', file: '/project.html'}
 
 social:

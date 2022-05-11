@@ -14,9 +14,11 @@ comments: true
         {% for category in site.data.settings.project.categories %}
             <div class="pb-6">
                 <h2 class="subtitle is-size-4 mb-1">
-                  Let's Talk via Disqus
+                  This is a Work-In-Process Project
                 </h2>
-                <p class="mb-2">We welcome questions and inquiries about potental collaboration via Disqus below.
+                <p class="mb-2">As originally envisioned, the infrastructure of this project was to be developed around a Twitter-bot workflow. However, for some unclear reason my application for Twitter developer status was denied. Rather than appeal that decision, I have shifted to a workflow based on a freely available TOCspotting app and voluntary contributions to a GitHub TOCdata repository.
+                </p>
+                <p>The current plan is to provide the Python-based tool to anyone with the skills and interest to download and install the tool script. The next step will be the revision of the tool to use the Beeware UI/UX framework rather than its current dependency on wxPython wxWidgets framework. This rewrite will allow the production of multi-platform enduser-installable apps that will broaden the community that can help with the creation of the MagTOC dataset.
                 </p>
 
                 <h2 class="subtitle is-size-4 mb-1">
@@ -40,23 +42,3 @@ comments: true
         {% endfor %}
     </div>
 </div>
-
-<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://magtocml.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
